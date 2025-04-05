@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    scroll-behavior: smooth;
+  }
+   
+body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+  }
+
+.tarjeta{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-tarjeta{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.txt-tarjeta{
+    text-align: center;
+    font-size: 20px;
+}
