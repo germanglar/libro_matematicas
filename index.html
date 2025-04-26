@@ -2,22 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header style= "background-color: darkblue; padding: 20px;">
-    <nav style="color:white; font-weight: 300; display: flex; justify-content:space-around;">
-      <h1>Matemáticas</h1>
-      <ul style="display: flex; justify-content: space-between; list-style-type: none;">
-        <li>Inicio</li>
-        <Li>rneglon 1</Li>
-        <li>renglon 2</li>
-        <li>renglon 3</li>
+  <header class="navbar_container">
+    <div class="div_container">
+      <img class="img_logo" src="./assets/img/profe.png" alt="logo_adn"/>
+      <h1 class="h1_style">Matemáticas</h1>
+    </div>
+    <nav class="nav_title">
+      <ul class="nav_list">
+        <li class="nav_item">Inicio</li>
+        <Li class="nav_item">Contactenos</Li>
+        <li class="nav_item">A cerca de nosotros</li>
       </ul>
     </nav>
   </header>
@@ -26,43 +29,45 @@
     <p style="margin: 40px 0; font-size: 20px;">La matemática es un lenguaje que sirve para transmitir ideas</p>
     <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; width: 100%;">
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/historia_matematica.jpg">
+        <img class="img-tarjeta" src="./assets/img/historia_matematica.jpg">
         <p class="txt-tarjeta">Historia</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/simbologio_matematica.jpg">
+        <img class="img-tarjeta" src="./assets/img/simbologio_matematica.jpg">
         <p class="txt-tarjeta">Simbología</p>
       </div>
+      <a href="./views/aritmetica.html">
+        <div class="tarjeta">
+          <img class="img-tarjeta" src="./assets/img/aritmetica_matematica.jpg">
+          <p class="txt-tarjeta">Aritmética</p>
+        </div>
+      </a>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/aritmetica_matematica.jpg">
-        <p class="txt-tarjeta">Aritmética</p>
-      </div>
-      <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/geometria.jpg">
+        <img class="img-tarjeta" src="./assets/img/geometria.jpg">
         <p class="txt-tarjeta">Geometría</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/algebra.jpg">
+        <img class="img-tarjeta" src="./assets/img/algebra.jpg">
         <p class="txt-tarjeta">Álgebra</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/trigonometria.jpg">
+        <img class="img-tarjeta" src="./assets/img/trigonometria.jpg">
         <p class="txt-tarjeta">Trigonometría</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/calculo.jpg">
+        <img class="img-tarjeta" src="./assets/img/calculo.jpg">
         <p class="txt-tarjeta">Cálculo</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/estadistica.jpg">
+        <img class="img-tarjeta" src="./assets/img/estadistica.jpg">
         <p class="txt-tarjeta">Estadística</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/probabilidad.png">
+        <img class="img-tarjeta" src="./assets/img/probabilidad.png">
         <p class="txt-tarjeta">Probabilidad</p>
       </div>
       <div class="tarjeta">
-        <img class="img-tarjeta" src="./src/img/otros.png">
+        <img class="img-tarjeta" src="./assets/img/otros.png">
         <p class="txt-tarjeta">Otros</p>
       </div>
     </div>
